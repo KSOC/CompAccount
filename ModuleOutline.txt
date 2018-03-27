@@ -1,0 +1,49 @@
+Module for the remediation and analysis of compromised accounts
+
+##########################
+##Remediation Functions###
+##########################
+
+.runNuke
+.fixNuke
+.reset-pass
+.deleteinboxRule
+.Add-MFA
+.Disable-ForwardingRules
+.Remove-MailboxForwarding
+
+
+
+##########################
+###Analysis Functions#####
+##########################
+.get-HiveData
+.Enable-Audit
+.Dump-Forensics
+
+
+
+
+
+##########################
+####Support Functions#####
+##########################
+
+.get-fwd
+.showinboxRules
+.get-password
+.generate-pass
+.MSPass
+.ADPass
+.Start-Countdown
+
+##########################
+######Dependencies########
+##########################
+
+# get ExoPowershellModule manifest from AppData and build the path to the DLL
+#$EXOPS_module_dirs = @(Get-ChildItem -Path "$($env:LOCALAPPDATA)\Apps\2.0" -Filter "Microsoft.Exchange.Management.ExoPowershellModule.manifest" -Recurse)
+#$EXOPS_module = Join-Path $EXOPS_module_dirs[0].Directory.FullName "Microsoft.Exchange.Management.ExoPowershellModule.dll"
+
+# search the SharePoint Online Management Shell directory in ProgramFiles for the DLL and build the path to it
+#$SPO_module = "$($env:ProgramFiles)\SharePoint Online Management Shell\Microsoft.Online.SharePoint.PowerShell\Microsoft.Online.SharePoint.Powershell.dll"

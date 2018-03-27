@@ -1,0 +1,7 @@
+normalize functions and get ready for module
+reset pass functions needs to generate pass and display on console
+deal with dependencies and modules needed
+module dependencies, import SPO, AD, Azure modules at import $this
+
+# search the SharePoint Online Management Shell directory in ProgramFiles for the DLL and build the path to it
+#$SPO_module = "$($env:ProgramFiles)\SharePoint Online Management Shell\Microsoft.Online.SharePoint.PowerShell\Microsoft.Online.SharePoint.Powershell.dll"
