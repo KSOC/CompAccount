@@ -1,7 +1,7 @@
 ﻿Function Start-Countdown {
    <#
        .Description
-       Countdown timer in Seconds
+        Countdown timer in Seconds
 
        .Example
         Start-Countdown -Seconds (60*3)
