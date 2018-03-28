@@ -1,11 +1,6 @@
-﻿
-#
-# Module Manifest for Module 'CompAccount.psd1
-#
+﻿# Module Manifest for Module 'CompAccount.psd1
 # This manifest file is a PowerShell hashtable with all technical requirements for this module
-#
 # Generated: 2018-03-27
-#
 
 @{
 
@@ -31,7 +26,7 @@ Copyright = '(c) 2018 Kiewit. All rights reserved.'
 Description = 'Module for the remediation of compromised O365 accounts'
 
 # Minimum PowerShell Version Required
-PowerShellVersion = '3'
+PowerShellVersion = '3.0'
 
 # Name of Required PowerShell Host
 PowerShellHostName = ''

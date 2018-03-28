@@ -1,4 +1,4 @@
-﻿Function Generate-Pass {
+﻿Function New-Pass {
    <#
        .Description
         generates strong password

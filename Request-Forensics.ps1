@@ -1,4 +1,4 @@
-﻿Function Dump-Forensics {
+﻿Function Request-Forensics {
 	Param (
 		[string]
 		$UPN,

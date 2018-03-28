@@ -1,4 +1,4 @@
-﻿Function Enable-Audit {
+﻿Function Set-Audit {
 	Param (
 		[string]
 		$UPN

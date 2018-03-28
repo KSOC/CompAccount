@@ -1,4 +1,4 @@
-﻿function Work-InboxRules($upn) {
+﻿function Unregister-InboxRules($upn) {
    <#
        .Description
         check and remove mailicous inbox rules

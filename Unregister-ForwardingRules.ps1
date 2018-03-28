@@ -1,4 +1,4 @@
-﻿Function Disable-ForwardingRules {
+﻿Function Unregister-ForwardingRules {
 	Param (
 		[string]
 		$UPN

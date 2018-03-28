@@ -1,4 +1,4 @@
-﻿function fixNuke($upn, $mspass) {
+﻿function Reset-Nuke($upn, $mspass) {
 	try {
 		# get user object from AD
 		$user = Get-ADUser -Filter {
