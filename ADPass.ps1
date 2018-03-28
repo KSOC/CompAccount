@@ -8,6 +8,6 @@
         Connect-MSOLservice -Credential $ADPass
    #>
 	if ($adpass -eq $null) {
-		$Script:ADPass = Get-Credential -Message "Enter .Admin account and password to connect to AD"
+		$Global:ADPass = Get-Credential -Message "Enter .Admin account and password to connect to AD"
 	}
 }

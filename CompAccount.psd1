@@ -4,82 +4,82 @@
 
 @{
 
-# Module Loader File
-RootModule = 'loader.psm1'
+  # Module Loader File
+  RootModule = 'loader.psm1'
 
-# Version Number
-ModuleVersion = '1.0'
+  # Version Number
+  ModuleVersion = '1.0'
 
-# Unique Module ID
-GUID = '7ae44bc3-cf29-4709-ae61-987ba8cc9710'
+  # Unique Module ID
+  GUID = '7ae44bc3-cf29-4709-ae61-987ba8cc9710'
 
-# Module Author
-Author = 'Alex.Watts'
+  # Module Author
+  Author = 'Alex.Watts'
 
-# Company
-CompanyName = 'Kiewit'
+  # Company
+  CompanyName = 'Kiewit'
 
-# Copyright
-Copyright = '(c) 2018 Kiewit. All rights reserved.'
+  # Copyright
+  Copyright = '(c) 2018 Kiewit. All rights reserved.'
 
-# Module Description
-Description = 'Module for the remediation of compromised O365 accounts'
+  # Module Description
+  Description = 'Module for the remediation of compromised O365 accounts'
 
-# Minimum PowerShell Version Required
-PowerShellVersion = '3.0'
+  # Minimum PowerShell Version Required
+  PowerShellVersion = '3.0'
 
-# Name of Required PowerShell Host
-PowerShellHostName = ''
+  # Name of Required PowerShell Host
+  PowerShellHostName = ''
 
-# Minimum Host Version Required
-PowerShellHostVersion = ''
+  # Minimum Host Version Required
+  PowerShellHostVersion = ''
 
-# Minimum .NET Framework-Version
-DotNetFrameworkVersion = ''
+  # Minimum .NET Framework-Version
+  DotNetFrameworkVersion = ''
 
-# Minimum CLR (Common Language Runtime) Version
-CLRVersion = ''
+  # Minimum CLR (Common Language Runtime) Version
+  CLRVersion = ''
 
-# Processor Architecture Required (X86, Amd64, IA64)
-ProcessorArchitecture = ''
+  # Processor Architecture Required (X86, Amd64, IA64)
+  ProcessorArchitecture = ''
 
-# Required Modules (will load before this module loads)
-RequiredModules = @()
+  # Required Modules (will load before this module loads)
+  RequiredModules = @()
 
-# Required Assemblies
-RequiredAssemblies = @()
+  # Required Assemblies
+  RequiredAssemblies = @()
 
-# PowerShell Scripts (.ps1) that need to be executed before this module loads
-ScriptsToProcess = @()
+  # PowerShell Scripts (.ps1) that need to be executed before this module loads
+  ScriptsToProcess = @()
 
-# Type files (.ps1xml) that need to be loaded when this module loads
-TypesToProcess = @()
+  # Type files (.ps1xml) that need to be loaded when this module loads
+  TypesToProcess = @()
 
-# Format files (.ps1xml) that need to be loaded when this module loads
-FormatsToProcess = @()
+  # Format files (.ps1xml) that need to be loaded when this module loads
+  FormatsToProcess = @()
 
-# 
-NestedModules = @()
+  # 
+  NestedModules = @()
 
-# List of exportable functions
-FunctionsToExport = '*'
+  # List of exportable functions
+  FunctionsToExport = '*'
 
-# List of exportable cmdlets
-CmdletsToExport = '*'
+  # List of exportable cmdlets
+  CmdletsToExport = '*'
 
-# List of exportable variables
-VariablesToExport = '*'
+  # List of exportable variables
+  VariablesToExport = '*'
 
-# List of exportable aliases
-AliasesToExport = '*'
+  # List of exportable aliases
+  AliasesToExport = '*'
 
-# List of all modules contained in this module
-ModuleList = @()
+  # List of all modules contained in this module
+  ModuleList = @()
 
-# List of all files contained in this module
-FileList = @()
+  # List of all files contained in this module
+  FileList = @()
 
-# Private data that needs to be passed to this module
-PrivateData = ''
+  # Private data that needs to be passed to this module
+  PrivateData = ''
 
 }

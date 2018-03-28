@@ -8,6 +8,6 @@
         Connect-MSOLservice -Credential $MSPass
    #>
 	if ($mspass -eq $null) {
-		$Script:MSPass = Get-Credential -Message "Enter cloud admin username and password to continue"
+		$Global:MSPass = Get-Credential -Message "Enter cloud admin username and password to continue"
 	}
 }

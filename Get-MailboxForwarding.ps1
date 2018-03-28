@@ -1,4 +1,4 @@
-﻿function get-fwd ($upn) {
+﻿function Get-MailboxForwarding ($upn) {
    <#
        .Description
         check current fwd smtp settings

@@ -13,7 +13,7 @@
 . $PSScriptRoot\Set-Audit.ps1
 . $PSScriptRoot\Reset-Nuke.ps1
 . $PSScriptRoot\New-Pass.ps1
-. $PSScriptRoot\Get-fwd.ps1
+. $PSScriptRoot\Get-MailboxForwarding.ps1
 . $PSScriptRoot\Get-HiveData.ps1
 . $PSScriptRoot\Get-password.ps1
 . $PSScriptRoot\Get-UPN.ps1
